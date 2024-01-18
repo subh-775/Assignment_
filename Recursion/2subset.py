@@ -13,5 +13,3 @@ def subsets(nums: list[int]) -> list[list[int]]:
     result = []
     backtrack(0, [])
     return result
-nums = [1, 2, 3]
-print(subsets(nums))
