@@ -19,9 +19,3 @@ def search(nums: list[int], target: int) -> int:
             return mid
     
     return -1
-
-
-
-nums = [-1,0,3,5,9,12]
-target = 2
-print(search(nums, target))
