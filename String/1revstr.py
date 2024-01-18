@@ -7,7 +7,3 @@ def reverseString(s: list[str]) -> None:
             s[start], s[end] = s[end], s[start]
             start+=1
             end -=1
-
-s = ["H","a","n","n","a","h"]
-reverseString(s)
-print(s)
