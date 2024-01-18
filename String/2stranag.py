@@ -23,9 +23,3 @@ def findAnagrams(s: str, p: str) -> list[int]:
             ans.append(i - p_len + 1)
 
     return ans
-
-    
-
-s = "cbaebabacd"
-p = "abc"
-print(findAnagrams(s, p))
