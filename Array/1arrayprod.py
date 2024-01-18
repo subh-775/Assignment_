@@ -12,7 +12,3 @@ def productExceptSelf(nums: list[int]) -> list[int]:
             result[i] *= post_prod
             post_prod *= nums[i]
         return result
-
-arr = [1, 2, 3, 4, 5]
-
-res = [1, 1, 2, ]
