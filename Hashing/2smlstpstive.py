@@ -11,7 +11,3 @@ def firstMissingPositive(nums):
                 return i + 1
 
         return n + 1
-
-nums = [0,-1,3,1]
-
-print(firstMissingPositive(nums))
