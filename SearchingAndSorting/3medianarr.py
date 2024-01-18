@@ -22,7 +22,3 @@ def findMedianSortedArrays(nums1: list[int], nums2: list[int]) -> float:
         mid = len(out_lst) // 2
         res = (out_lst[mid] + out_lst[~mid]) / 2
         return res
-
-nums1 = [1, 2]
-nums2 = [3, 4]
-print(findMedianSortedArrays(nums1, nums2))
