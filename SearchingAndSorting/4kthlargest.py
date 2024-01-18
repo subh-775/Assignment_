@@ -11,8 +11,3 @@ def findKthLargest(nums: list[int], k: int) -> int:
 
     return min_heap[0]
     # return sorted(nums)[-k]
-
-nums = [3,2,3,1,2,4,5,5,6]
-k = 4
-
-print(findKthLargest(nums, k))
