@@ -7,6 +7,3 @@ def frequencySort(s: str) -> str:
         temp_str = f"{letr}"*count
         out+=temp_str
     return out
-
-s = "loveleetcode"
-print(frequencySort(s))
