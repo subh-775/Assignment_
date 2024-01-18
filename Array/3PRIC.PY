@@ -12,7 +12,3 @@ def maxProfit(prices: list[int]) -> int:
         return 0
     else:
         return profit
-
-prices = [7,1,5,3,6,4]
-
-print(maxProfit(prices))
