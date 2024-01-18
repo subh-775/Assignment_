@@ -6,13 +6,12 @@ class ListNode:
         self.val = val
         self.next = next
         
-class Solution:
-    def reverseList(head: ListNode) -> ListNode:
-        prev = None
-        curr = head
-        while curr is not None:
-            nxt = curr.next
-            curr.next = prev
-            prev = curr
-            curr = nxt
-        return prev
+def reverseList(head: ListNode) -> ListNode:
+    prev = None
+    curr = head
+    while curr is not None:
+        nxt = curr.next
+        curr.next = prev
+        prev = curr
+        curr = nxt
+    return prev
