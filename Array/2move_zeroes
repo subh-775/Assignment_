@@ -1,0 +1,12 @@
+# MOVE ZEROS
+
+def moveZeroes(nums: list[int]) -> None:
+    a = 0
+    for i in nums:
+        if i == 0:
+            nums.remove(i)
+            a+=1
+        else:
+            continue
+    for j in range(a):
+        nums.append(0)
