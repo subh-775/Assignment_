@@ -12,7 +12,3 @@ def romanToInt(s: str) -> int:
             i += 1
 
     return result
-
-s = "MCDLXXVI"
-
-print(romanToInt(s))
