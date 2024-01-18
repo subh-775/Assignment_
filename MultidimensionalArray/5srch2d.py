@@ -31,8 +31,3 @@ def searchMatrix(matrix: list[list[int]], target: int):
         row+=1
         
     return False
-
-matrix = [[1]]
-target = 1
-
-print(searchMatrix(matrix, target))
