@@ -20,8 +20,3 @@ def minSubArrayLen(target: int, nums: list[int]) -> int:
                 left += 1
 
         return min_len if min_len != float('inf') else 0
-        
-
-arr = [5,1,3,5,10,7,4,9,2,8]
-target = 15
-print(minSubArrayLen(target, arr))
