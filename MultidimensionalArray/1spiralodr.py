@@ -27,7 +27,3 @@ def spiralOrder(matrix: list[list[int]]) -> list[int]:
         left, right, top, bottom = left + 1, right - 1, top + 1, bottom - 1
 
     return result
-
-matrix = [[1,2,3],[4,5,6],[7,8,9]]
-print(spiralOrder(matrix))
-
