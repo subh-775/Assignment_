@@ -11,8 +11,3 @@ def twoSum(nums: list[int], target: int) -> list[int]:
             numMap[nums[i]] = i
 
         return []
-
-
-nums = [3, 2, 3]
-target = 6
-print(twoSum(nums, target))
