@@ -21,9 +21,3 @@ def setZeroes(matrix: list[list[int]]) -> None:
             matrix[zrow][i] = 0
         for i in range(0, total_rows):
             matrix[i][zcol] = 0
-        
-
-matrix = [[1,1,1],[1,0,1],[1,1,1]]
-
-setZeroes(matrix)
-print(matrix)
