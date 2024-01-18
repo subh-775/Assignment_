@@ -12,7 +12,3 @@ def maxArea(height: list[int]) -> int:
         else:
             en -= 1
     return maxarea
-
-height = [1,8,6,2,5,4,8,3,7]
-
-print(maxArea(height))
